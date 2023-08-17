@@ -59,14 +59,14 @@ ul li:hover{
   width: 40%;
   display: inline-block;
   position: absolute;
-  top: 23%;
+  top: 15%;
   left: 55%;
   bottom: 5px;
 }
 
 /* ****************** coreTeamSection ***************************** */
 
-.Core_team{
+.Workshops_sec{
   max-height: fit-content;
   background-color: #DBCEBF;
   color: #5B343B;
@@ -82,7 +82,7 @@ ul li:hover{
   border-radius: 30px;
 }
 
-#core_text{
+#workshop_text{
   text-align: center;
   padding-top: 50px;
 }
@@ -183,16 +183,16 @@ td{
 
 /**************************** Workshop Section *************************/
 
-.Workshops_sec{
+.Core_team{
   height: 650px;
   background-color: #DBCEBF;
   color: #5B343B;
-  text-align:left;
+  text-align:center;
 }
 
-#workshop_text{
-  position:absolute;
-  left: 70%;
+#core_text{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /**************************** Join US Section *************************/
@@ -219,7 +219,7 @@ td{
 }
 
 input{
-  font-size: 20px;
+  font-size: 36px;
   background-color: #5B343B;
   border: none;
 }
@@ -231,12 +231,10 @@ input::placeholder{
 
 
 .joinUs_form{
-  background-color: #DBCEBF;
   position: absolute;
   top: 10%;
   left: 65%;
-  line-height: 3rem;
-  border-radius: 30px;
+  line-height: 7rem;
 }
 
 /**************************** Contact US Section *************************/
