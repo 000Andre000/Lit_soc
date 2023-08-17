@@ -219,7 +219,7 @@ td{
 }
 
 input{
-  font-size: 36px;
+  font-size: 20px;
   background-color: #5B343B;
   border: none;
 }
@@ -231,10 +231,12 @@ input::placeholder{
 
 
 .joinUs_form{
+  background-color: #DBCEBF;
   position: absolute;
   top: 10%;
   left: 65%;
-  line-height: 7rem;
+  line-height: 3rem;
+  border-radius: 30px;
 }
 
 /**************************** Contact US Section *************************/
