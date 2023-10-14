@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="annual_style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="top">
+  <!-- ***************************** NAV BAR ********************************************* -->
         <div class="top_container">
           <div class="logo">
             <img class="logo" src="img/logo.png" alt="LOGO" />
@@ -15,27 +17,79 @@
           <nav>
             <ul>
               <li class="nav_text">
-                <h4>Blog</h4>
+                <a style="text-decoration: none;" href="index.html"><h4>Home</h4></a>
+              </li>  
+              <li class="nav_text">
+                <a><h4>Blog</h4></a>
               </li>
               <li class="nav_text">
-                <h4>Events</h4>
+                <a><h4>Events</h4></a>
               </li>
               <li class="nav_text">
-                <h4>Reviews</h4>
-              </li>
-              <li class="nav_text">
-                <h4>Annual report</h4>
-              </li>
-              <li class="nav_text">
-                <!-- Button trigger modal -->
-                <a class="button show-modal actives" data-toggle="modal" data-target="#myModal"
-                  style="color:#DBCEBF; text-decoration: none; ">
-                  <h4>Login Form</h4>
-                </a>
+                <a><h4>Reviews</h4></a>
               </li>
             </ul>
           </nav>
           </div>
+
+          <div>
+            <div>
+              <iframe class="frame" id="r_1" src= 
+              "https://fe.dbit.in/assets/pdf/litsoc/Annual%20Report%20LitSoc%20(2021-2022)%20(1).pdf" 
+                              width="800"
+                              height="500"> 
+                      </iframe>
+            </div>
+            <div>
+              <iframe class="frame" id="r_2" src= 
+              "https://fe.dbit.in/assets/pdf/litsoc/Effective%20Speaking%20Skills.pdf" 
+                              width="800"
+                              height="500"> 
+                      </iframe>
+            </div>
+            <div>
+              <iframe class="frame" id="r_3" src= 
+              "https://fe.dbit.in/assets/pdf/litsoc/FE%20Orientation%20Report.pdf" 
+                              width="800"
+                              height="500"> 
+                      </iframe>
+            </div>
+            <div>
+              <iframe class="frame" id="r_4" src= 
+              "https://fe.dbit.in/assets/pdf/litsoc/J.A.M%20Just%20A%20Minute.pdf" 
+                              width="800"
+                              height="500"> 
+                      </iframe>
+            </div>
           </div>
+
+          <div>
+            <div class="column">
+              <div class="column_text">
+                <h2>Reports</h2>
+                <ul>
+                  <li>
+                      <button onclick="hide(id,'r_1')" class="butn" id="btn_1"> Annual Report 2021-2022 </button>
+                  </li>
+                  <li>
+                    <button onclick="hide(id,'r_2')" class="butn" id="btn_2"> Effective Speaking Skills </button>
+                  </li>
+                  <li>
+                    <button onclick="hide(id,'r_3')" class="butn" id="btn_3">FE Orientation</button>
+                  </li>
+                  <li>
+                    <button onclick="hide(id,'r_4')" class="butn" id="btn_4">J.A.M Just A Minute </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+
+
+
+        <script type="text/javascript" src="index.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
 </body>
 </html>

@@ -1,72 +1,70 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
 
-body{
-  font-family: Verdana, sans-serif; 
-  background-color: #DBCEBF;
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #dbcebf;
   height: 100%;
   overflow-x: hidden;
   margin: 0;
 }
 
-h4{
-  color: #DBCEBF;
+h4 {
+  color: #dbcebf;
 }
 
-a{
-  color: #DBCEBF;
+a {
+  color: #dbcebf;
 }
 
-*{
-  transition:all 0.3s ease-in-out;
-  
+* {
+  transition: all 0.3s ease-in-out;
 }
-
 
 /* *********** navBar and topSection ************** */
 
-.top{
-  background-color: #5B343B;
-  color: #DBCEBF;
+.top {
+  background-color: #5b343b;
+  color: #dbcebf;
   height: 750px;
-  
-
 }
 
-.top_container{
+.top_container {
   /* clear:both; */
-  overflow:auto;
+  overflow: auto;
   /* margin: 10px ; */
   padding: 10px;
-  background-color: #5B343B;
-  color: #DBCEBF;
+  background-color: #5b343b;
+  color: #dbcebf;
 }
 
 /* Makes nav text float right */
-nav{
-  float:right;
+nav {
+  float: right;
 }
 
 /* Css for logo */
-.logo{
-  float:left;
-  height:25%;
-  width:25%}
+.logo {
+  float: left;
+  height: 25%;
+  width: 25%;
+}
 
 /* Navbar CSS */
-ul li{
-  display: inline-block; 
-  padding:10px;
+ul li {
+  display: inline-block;
+  padding: 10px;
   font-size: large;
 }
 
-.nav_text:hover{
+.nav_text:hover {
   color: #826963;
   transition-delay: 0ms;
 }
 
 /* CSS for book image */
-.bk{
+.bk {
   width: 40%;
+  height: 90%;
   display: inline-block;
   position: absolute;
   top: 15%;
@@ -76,13 +74,13 @@ ul li{
 
 /* ****************** coreTeamSection ***************************** */
 
-.Workshops_sec{
-  background-color: #DBCEBF;
-  color: #5B343B;
+.Workshops_sec {
+  background-color: #dbcebf;
+  color: #5b343b;
 }
 
-.slide_img{
-  padding:70px;
+.slide_img {
+  padding: 70px;
   width: auto;
   height: auto;
   border-radius: 20%;
@@ -94,7 +92,7 @@ ul li{
 
 /* .nohover:hover { border: 0 } */
 
-#workshop_text{
+#workshop_text {
   text-align: center;
   padding-top: 50px;
   margin: auto;
@@ -131,10 +129,9 @@ ul li{
 
 /* On hover, add a black background color with a little bit see-through */
 
-
 /* Caption text */
 .text {
-  color: #5B343B;
+  color: #5b343b;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -144,7 +141,7 @@ ul li{
 }
 
 .actives:hover {
-  background-color:#826963;
+  background-color: #826963;
 }
 
 /* Fading animation */
@@ -154,61 +151,68 @@ ul li{
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 /******************************* Work Section *************************** */
 
-.work{
+.work {
   height: 650px;
-  background-color: #5B343B;
-  color: #DBCEBF;
+  background-color: #5b343b;
+  color: #dbcebf;
   text-align: center;
   padding-bottom: 5%;
 }
 
-.work_contain{
+.work_contain {
   position: relative;
   display: flex;
-  flex-direction:column  ;
+  flex-direction: column;
 }
 
-.work_text{
+.work_text {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.working{
+.working {
   position: absolute;
 }
 
-.work_table{
+.work_table {
   position: relative;
   left: 210px;
 }
 
-table{
-  width: auto; 
+table {
+  width: auto;
 }
 
-th, td {
+th,
+td {
   padding-left: 70px;
 }
 
-#tabletext{
+#tabletext {
   margin-top: 20px;
 }
+
 /**************************** Workshop Section *************************/
 
-.Core_team{
+.Core_team {
   height: 650px;
-  background-color: #DBCEBF;
-  color: #5B343B;
-  text-align:center;
+  background-color: #dbcebf;
+  color: #5b343b;
+  text-align: center;
 }
 
-#core_text{
+#core_text {
   padding-top: 50px;
   padding-bottom: 50px;
   margin: auto;
@@ -216,68 +220,78 @@ th, td {
 
 /**************************** Join US Section *************************/
 
-.Join_us{
+.Join_us {
   height: 690px;
-  background-color: #5B343B;
-  color: #DBCEBF;
-  text-align:left;
+  background-color: #5b343b;
+  color: #dbcebf;
+  text-align: left;
   position: relative;
   margin: 0;
 }
 
-#join_text{
-  position:absolute;
+#join_text {
+  position: absolute;
   left: 70%;
   margin: 40px;
 }
 
-.right{
+.right {
   position: relative;
   left: 260px;
-  top: 40px
+  top: 40px;
 }
 
 a {
-	cursor: pointer;
+  cursor: pointer;
   transition: all 200ms linear;
 }
+
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
+
 .link {
   color: #c4c3ca;
 }
+
 .link:hover {
   color: #ffeba7;
 }
+
 p {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.7;
 }
+
 h4 {
   font-weight: 600;
 }
-h6 span{
+
+h6 span {
   padding: 0 20px;
   text-transform: uppercase;
   font-weight: 700;
 }
-.section{
+
+.section {
   position: relative;
   width: 100%;
   display: block;
 }
-.full-height{
+
+.full-height {
   min-height: 100vh;
 }
+
 [type="checkbox"]:checked,
-[type="checkbox"]:not(:checked){
+[type="checkbox"]:not(:checked) {
   position: absolute;
   left: -9999px;
 }
-.checkbox:checked + label,
-.checkbox:not(:checked) + label{
+
+.checkbox:checked+label,
+.checkbox:not(:checked)+label {
   position: relative;
   display: block;
   text-align: center;
@@ -289,17 +303,18 @@ h6 span{
   cursor: pointer;
   background-color: #ffeba7;
 }
-.checkbox:checked + label:before,
-.checkbox:not(:checked) + label:before{
+
+.checkbox:checked+label:before,
+.checkbox:not(:checked)+label:before {
   position: absolute;
   display: block;
   width: 36px;
   height: 36px;
   border-radius: 50%;
   color: #ffeba7;
-  background-color: #5B343B;
-  font-family: 'unicons';
-  content: '\eb4f';
+  background-color: #5b343b;
+  font-family: "unicons";
+  content: "\eb4f";
   z-index: 20;
   top: -10px;
   left: -10px;
@@ -308,10 +323,10 @@ h6 span{
   font-size: 24px;
   transition: all 0.5s ease;
 }
-.checkbox:checked + label:before {
+
+.checkbox:checked+label:before {
   transform: translateX(44px) rotate(-270deg);
 }
-
 
 .card-3d-wrap {
   position: relative;
@@ -324,21 +339,24 @@ h6 span{
   perspective: 800px;
   margin-top: 60px;
 }
+
 .card-3d-wrapper {
   width: 100%;
   height: 100%;
-  position:absolute;    
+  position: absolute;
   top: 0;
-  left: 0;  
+  left: 0;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  transition: all 600ms ease-out; 
+  transition: all 600ms ease-out;
 }
-.card-front, .card-back {
+
+.card-front,
+.card-back {
   width: 100%;
   height: 100%;
   background-color: #826963;
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 300%;
@@ -353,13 +371,16 @@ h6 span{
   -o-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+
 .card-back {
   transform: rotateY(180deg);
 }
-.checkbox:checked ~ .card-3d-wrap .card-3d-wrapper {
+
+.checkbox:checked~.card-3d-wrap .card-3d-wrapper {
   transform: rotateY(180deg);
 }
-.center-wrap{
+
+.center-wrap {
   position: absolute;
   width: 100%;
   padding: 0 35px;
@@ -370,13 +391,13 @@ h6 span{
   display: block;
 }
 
-
-.form-group{ 
+.form-group {
   position: relative;
   display: block;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
 .form-style {
   padding: 13px 20px;
   padding-left: 55px;
@@ -388,19 +409,21 @@ h6 span{
   line-height: 22px;
   letter-spacing: 0.5px;
   outline: none;
-  color: #5B343B;
-  background-color:#DBCEBF ;
+  color: #5b343b;
+  background-color: #dbcebf;
   border: none;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
-  box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+  box-shadow: 0 4px 8px 0 rgba(21, 21, 21, 0.2);
 }
+
 .form-style:focus,
 .form-style:active {
   border: none;
   outline: none;
-  box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+  box-shadow: 0 4px 8px 0 rgba(21, 21, 21, 0.2);
 }
+
 .input-icon {
   /* position: absolute; */
   float: right;
@@ -412,61 +435,68 @@ h6 span{
   text-align: left;
   color: #ffeba7;
   -webkit-transition: all 200ms linear;
-    transition: all 200ms linear;
+  transition: all 200ms linear;
 }
 
-.form-group input:-ms-input-placeholder  {
-  color: #5B343B;
+.form-group input:-ms-input-placeholder {
+  color: #5b343b;
   opacity: 0.7;
   -webkit-transition: all 200ms linear;
-    transition: all 200ms linear;
-}
-.form-group input::-moz-placeholder  {
-  color: #5B343B;
-  opacity: 0.7;
-  -webkit-transition: all 200ms linear;
-    transition: all 200ms linear;
-}
-.form-group input:-moz-placeholder  {
-  color: #5B343B;
-  opacity: 0.7;
-  -webkit-transition: all 200ms linear;
-    transition: all 200ms linear;
-}
-.form-group input::-webkit-input-placeholder  {
-  color: #5B343B;
-  opacity: 0.7;
-  -webkit-transition: all 200ms linear;
-    transition: all 200ms linear;
-}
-.form-group input:focus:-ms-input-placeholder  {
-  opacity: 0;
-  -webkit-transition: all 200ms linear;
-    transition: all 200ms linear;
-}
-.form-group input:focus::-moz-placeholder  {
-  opacity: 0;
-  -webkit-transition: all 200ms linear;
-    transition: all 200ms linear;
-}
-.form-group input:focus:-moz-placeholder  {
-  opacity: 0;
-  -webkit-transition: all 200ms linear;
-    transition: all 200ms linear;
-}
-.form-group input:focus::-webkit-input-placeholder  {
-  opacity: 0;
-  -webkit-transition: all 200ms linear;
-    transition: all 200ms linear;
+  transition: all 200ms linear;
 }
 
-.btn{  
+.form-group input::-moz-placeholder {
+  color: #5b343b;
+  opacity: 0.7;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.form-group input:-moz-placeholder {
+  color: #5b343b;
+  opacity: 0.7;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.form-group input::-webkit-input-placeholder {
+  color: #5b343b;
+  opacity: 0.7;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.form-group input:focus:-ms-input-placeholder {
+  opacity: 0;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.form-group input:focus::-moz-placeholder {
+  opacity: 0;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.form-group input:focus:-moz-placeholder {
+  opacity: 0;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.form-group input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.btn {
   border-radius: 4px;
   height: 44px;
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
-  -webkit-transition : all 200ms linear;
+  -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   padding: 0 30px;
   letter-spacing: 1px;
@@ -484,23 +514,25 @@ h6 span{
   -ms-flex-pack: center;
   text-align: center;
   border: none;
-  background-color: #5B343B;
-  color: #DBCEBF;
-  box-shadow: 0 8px 24px 0 rgba(255,235,167,.2);
-}
-.btn:active,
-.btn:focus{  
-  background-color:#5B343B;
-  color: #ffeba7;
-  box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
-}
-.btn:hover{  
-  background-color: #777;
-  color: #ffeba7;
-  box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+  background-color: #5b343b;
+  color: #dbcebf;
+  box-shadow: 0 8px 24px 0 rgba(255, 235, 167, 0.2);
 }
 
-.joinUs_form{
+.btn:active,
+.btn:focus {
+  background-color: #5b343b;
+  color: #ffeba7;
+  box-shadow: 0 8px 24px 0 rgba(16, 39, 112, 0.2);
+}
+
+.btn:hover {
+  background-color: #777;
+  color: #ffeba7;
+  box-shadow: 0 8px 24px 0 rgba(16, 39, 112, 0.2);
+}
+
+.joinUs_form {
   position: absolute;
   top: 10%;
   left: 65%;
@@ -509,192 +541,235 @@ h6 span{
 
 /**************************** Contact US Section *************************/
 
-.Contact_us{
+.Contact_us {
   padding-top: 40px;
   height: 650px;
-  background-color: #DBCEBF;
-  color: #5B343B;
-  text-align:left;
+  background-color: #dbcebf;
+  color: #5b343b;
+  text-align: left;
 }
 
-#contact_text{
-  position:absolute;
+#contact_text {
+  position: absolute;
   left: 70%;
 }
 
-.contact_img{
-  width: 600px; 
+.contact_img {
+  width: 600px;
   display: inline-block;
-  
 }
 
-.contact_imge{
+.contact_imge {
   width: 40px;
 }
 
-.contact_table td{
-  margin-left:50px ;
+.contact_table td {
+  margin-left: 50px;
   padding: 30px;
 }
 
 /* *********************************** Log in ******************************************************* */
 
-.button{
-  background-color: #5B343B;
-  
+.button {
+  background-color: #5b343b;
 }
 
-.title{
-  color: #DBCEBF;
+.modal-header {
+  background-color: #dbcebf;
 }
 
-.modal-box
-.show-modal{
-
-    background: #5B343B;
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: capitalize;   
-    border: none;
-    outline: none;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    display: block;
-    transition: all 0.3s ease 0s;
+.title {
+  color: #5b343b;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
+
+.modal-box .show-modal {
+  background: #5b343b;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  display: block;
+  transition: all 0.3s ease 0s;
+  /* background-color:#5B343B; */
+}
+
 .show-modal:hover,
 .show-modal:link,
-.show-modal:focus{
-    color: #DBCEBF;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    text-decoration: none;
-}
-.modal-dialog{
-    width: 400px;
-    margin: 70px auto 0;
-}
-.modal-dialog{ transform: scale(0.5); }
-.modal-dialog{ transform: scale(1); }
-.modal-dialog .modal-content{
-    text-align: center;
-    border: none;
-}
-.modal-content .close{
-    color: #DBCEBF;
-    background: #5B343B;
-    font-size: 25px;
-    font-weight: 400;
-    text-shadow: none;
-    line-height: 27px;
-    height: 25px;
-    width: 25px;
-    overflow: hidden;
-    opacity: 1;
-    position: absolute;
-    left: auto;
-    right: 8px;
-    top: 8px;
-    z-index: 1;
-    transition: all 0.3s;
-}
-.modal-content .close:hover{
-    color: #5B343B;
-    box-shadow: 0 0 5px #DBCEBF;
+.show-modal:focus {
+  color: #dbcebf;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
 }
 
-.modal-body{ padding: 60px 40px 40px !important; }
-.modal-body .title{
-    color:#DBCEBF ;
-    font-size: 33px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
+.modal-dialog {
+  width: 400px;
+  margin: 70px auto 0;
 }
-.modal-body .description{
-    color: #9A9EA9;
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-.modal-body .form-group{
-    text-align: left;
-    margin-bottom: 20px;
-    position: relative;
-}
-.modal-body .input-icon{
-    color: #777;
-    font-size: 18px;
-    transform: translateY(-50%);
-    position: absolute;
-    top: 50%;
-    left: 20px;
-}
-.modal-body .form-control{
-    font-size: 17px;
-    height: 45px;
-    width: 100%;
-    padding: 6px 0 6px 50px;
-    border: 2px solid #eee;
-    border-radius: 5px;
-    box-shadow: none;
-    outline: none;
-}
-.form-control::placeholder{
-    color: #AEAFB1;
-}
-.form-group.checkbox{
-    width: 130px;
-    margin-top: 0;
-    display: inline-block;
-}
-.form-group.checkbox label{
-    color: #9A9EA9;
-    font-weight: normal;
-}
-.form-group.checkbox input[type=checkbox]{
-    margin-left: 0;
-}
-.modal-body .forgot-pass{
-    color: #DBCEBF  ;
-    font-size: 13px;
-    text-align: right;
-    width: calc(100% - 135px);
-    margin: 2px 0;
-    display: inline-block;
-    vertical-align: top;
-    transition: all 0.3s ease 0s;
-}
-.forgot-pass:hover{
-    color: #826963;
-}
-.modal-content .modal-body .btn{
-    color: #fff;
-    background: #5B343B;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    line-height: 38px;
-    width: 100%;
-    height: 40px;
-    padding: 0;
-    border: none;
-    border-radius: 5px;
-    border: none;
-    display: inline-block;
-    transition: all 0.6s ease 0s;
-}
-.modal-content .modal-body .btn:hover{
-    color: #fff;
-    letter-spacing: 2px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-/* .modal-content .modal-body .btn:focus{ outline: none; }
-@media only screen and (max-width: 480px){
-    .modal-dialog{ width: 95% !important; }
-    .modal-content .modal-body{
-        padding: 60px 20px 40px !important;
-    }
-} */
 
-.login:hover{
+.modal-dialog {
+  transform: scale(0.5);
+}
+
+.modal-dialog {
+  transform: scale(1);
+}
+
+.modal-dialog .modal-content {
+  text-align: center;
+  border: none;
+}
+
+.modal-content .close {
+  color: #dbcebf;
+  background: #5b343b;
+  font-size: 25px;
+  font-weight: 400;
+  text-shadow: none;
+  line-height: 27px;
+  height: 25px;
+  width: 25px;
+  overflow: hidden;
+  opacity: 1;
+  position: absolute;
+  left: auto;
+  right: 8px;
+  top: 8px;
+  z-index: 1;
+  /* transition: all 0.3s; */
+}
+
+.modal-content .close:hover {
+  color: #5b343b;
+  box-shadow: 0 0 5px #dbcebf;
+}
+
+.modal-body {
+  padding: 60px 40px 40px !important;
+  background-color: #826963;
+}
+
+.modal-body .title {
+  color: #dbcebf;
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  background-color: #826963;
+}
+
+.modal-body .description {
+  color: #9a9ea9;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.modal-body .form-group {
+  text-align: left;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.modal-body .input-icon {
+  color: #777;
+  font-size: 18px;
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 20px;
+}
+
+.modal-body .form-control {
+  font-size: 17px;
+  height: 45px;
+  width: 100%;
+  padding: 6px 0 6px 50px;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+}
+
+.form-control::placeholder {
+  color: #aeafb1;
+}
+
+.form-group.checkbox {
+  width: 130px;
+  margin-top: 0;
+  display: inline-block;
+}
+
+.form-group.checkbox label {
+  color: #9a9ea9;
+  font-weight: normal;
+}
+
+.form-group.checkbox input[type="checkbox"] {
+  margin-left: 0;
+}
+
+.modal-body .forgot-pass {
+  color: #dbcebf;
+  font-size: 13px;
+  text-align: right;
+  width: calc(100% - 135px);
+  margin: 2px 0;
+  display: inline-block;
+  vertical-align: top;
+  transition: all 0.3s ease 0s;
+}
+
+.forgot-pass:hover {
   color: #826963;
+}
+
+.modal-content .modal-body .btn {
+  color: #fff;
+  background: #5b343b;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 38px;
+  width: 100%;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+  transition: all 0.6s ease 0s;
+}
+
+.modal-content .modal-body .btn:hover {
+  color: #fff;
+  letter-spacing: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content .modal-body .btn:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .modal-dialog {
+    width: 95% !important;
+  }
+
+  .modal-content .modal-body {
+    padding: 60px 20px 40px !important;
+  }
+}
+
+.login:hover {
+  color: #826963;
+}
+
+.cl {
+  position: absolute;
+  left: 200px;
 }
