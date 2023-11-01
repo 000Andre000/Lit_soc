@@ -45,8 +45,8 @@ nav {
 /* Css for logo */
 .logo {
   float: left;
-  height: 25%;
-  width: 25%;
+  height: 20%;
+  width: 20%;
 }
 
 /* Navbar CSS */
@@ -72,6 +72,15 @@ ul li {
   bottom: 5px;
 }
 
+.top_text{
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  width: 800px;
+  text-align: center;
+  height: auto;
+}
+
 /* ****************** coreTeamSection ***************************** */
 
 .Workshops_sec {
@@ -81,8 +90,8 @@ ul li {
 
 .slide_img {
   padding: 70px;
-  width: auto;
-  height: auto;
+  width: 500px;
+  height: 800px;
   border-radius: 20%;
 }
 
@@ -206,7 +215,7 @@ td {
 /**************************** Workshop Section *************************/
 
 .Core_team {
-  height: 650px;
+  height: 700px;
   background-color: #dbcebf;
   color: #5b343b;
   text-align: center;
@@ -218,6 +227,14 @@ td {
   margin: auto;
 }
 
+.core_img{
+  position: absolute;
+  padding: 0;
+  margin: 0%;
+  top: 10px;
+  height: 500px; 
+  width:1000px;
+}
 /**************************** Join US Section *************************/
 
 .Join_us {

@@ -1,0 +1,1 @@
+mongodb+srv://Artist:<password>@cluster0.5midarr.mongodb.net/?retryWrites=true&w=majority
